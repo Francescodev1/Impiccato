@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>L'IMPICCATO</title>
+</head>
+
+<body class="bg-dark text-info">
+
+  <main class="d-flex flex-column px-4 pt-3">
+    <div id="titolo" class="d-flex flex-column justify-content-center align-items-center mb-1">
+      <!-- titolo -->
+      <h1 class="text-center font-weight-bold display-6">L'IMPICCATO</h1>
+      <!-- ricomincia -->
+      <button id="ricomincia" class="btn btn-outline-warning mt-2 mb-1">Ricomincia</button>
+    </div>
+
+    <!-- impiccato-cont -->
+    <div id="impiccato-container" class="d-flex flex-column align-items-center justify-content-center">
+      <!-- vite -->
+      <div class="mb-1 d-flex align-items-center justify-content-center font-weight-bold">
+        <img src="assets/cuore.png" alt="immagine-impiccato" class="img-fluid" style="height: 2rem;">
+        <span id="vite" class="font-weight-bold mx-2"></span>
+        <span class="font-weight-bold text-transparent"></span>
+      </div>
+
+      <!-- img -->
+      <div class="rounded-3 shadow-lg p-3 mb-1 bg-body-tertiary" style="width: 20%;">
+        <img id="img" src="assets/start.png" alt="immagine-impiccato" class="img-fluid">
+      </div>
+    </div>
+
+    <!-- parola user -->
+    <div class="d-flex justify-content-center align-items-center mb-5 mt-4">
+      <div id="parolaUser" class="d-flex gap-3 shadow p-3 rounded-3 bg-body-tertiary"></div>
+      <div id="falso" class="d-none gap-3 shadow p-3 rounded-3 bg-body-tertiary"><p id="parolaDaIndovinare"></p></div>
+    </div>
+
+    <!-- tastiera-container -->
+    <div id="tastieraac" class="d-flex flex-wrap justify-content-center">
+      <div class="grid-container d-grid gap-3 justify-content-center text-center" id="tastiera"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
