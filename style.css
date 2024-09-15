@@ -36,6 +36,9 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
   }
+  .x {
+    width: 40% !important;
+  }
 }
 
 .rilievo {
