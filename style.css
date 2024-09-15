@@ -33,8 +33,9 @@ body {
 
 @media screen and (max-width: 640px) {
   .grid-container {
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 80px);
+    
   }
   .x {
     width: 40% !important;
